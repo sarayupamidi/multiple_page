@@ -1,0 +1,42 @@
+body{
+    background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALcAwwMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAf/xAAgEAEBAAMBAQEAAgMAAAAAAAAAAQIREiExQSJRUmKC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APHZPadij0CNJsaFoGfJruImP+oM/wBUrhUxBmIvk5ASVxXyLPAZyDSuVaBnILF/qbAItnTAooocAaTYulsEwcqvwoA0CANcYop8EAr7d/0et+nPp8gjRr0cBPIsWnXoFj9Vo4YI59HDTQsBnwOVWAGfJaaaGgZ6HLSQWAiYjlevC0DO4puLfSb9BjcfEyNryi8gQGgDWiRpoaBMi9JVAEhfq5/LwTH0BIej0egTJ6dh6MEyFWmk2f6giwaacjkGfI0otAnkrGkgoM01pZimwEVOl2ECMmfG2ydAjQPRg6PwaEVICdf5fDmP9H+qx+gcxx0cn9HIqQEaVIL9VATBJ6rQBOgdGgK/CqtDQM9HIrQsBGiynsXU0E5RNVSBN+Iq6nL4CamxZAz0atgGlXjPISsYBzFUhyHfgFPqtlBsFQ5Eb6ykafALKHJ4ei/QLQVoaBNg2dLQFYVirCsBFibGl+M8gRRVFYCZCqp9KgipqkgQBA2mLTDHn1OOTSZeAr+Q0WPW1SAWhoftIF44rZyNZPAEhlTgAqewBfhGQCwqdqaBZVnZ6uwtf4/QTU2Lv8vKm+eAmpq7UWgmpqk5AkAA6JFY1HSsQay+CVHXqpevAPevP7OFIrQCKxLZwFAAD/Cg2IATTqbQEIW+wss/aAyLZbLQFlfU2Gi5egKm0WlzsBb4ztVUZT+UAbAv0gdMqv8ApMMD0vGJEoNYaJVAY2kwXs4z2JkDQk9H0AtT+i5M7mDQMuhsGlTsuk2gMqm/Yd+M79BeWPqb8G05ZAnKpqqzoDRp2AdMyPaNn0CrkqM5V7BRyoKUG2xKiUbBpsto2rYK2VqbU3IF9JtIAfXhdFv0rQPacqLQAlKjYtArSvwsqXQFamjOpmQKNmAa2nLz6iUdA0mW7tW2MvqrQXMvV4sdq6Bp16N+s+hKDXYmTOZHsGmyqZRcgVtNpdFsFbLabkm5A0tHWLLY2C7SqbkWwWWk2lMgVkxsXckZAqfAgAuU5UlsF7PbLZ7BfQlRb4UBrtW2HR9g26HTHo+gbdJuaNi0F9eHjWY2C7l6nopU5X0F9puSS2C+z2jGeqAUtgwLRK2ASFcgESq2ACbSyvhgEnKABU5AAPRwgCoKABCfQAFoAAVNhgBPh7AAbGwAEpwAAAAf/9k=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 60%;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgb(19, 16, 78);
+    opacity: 0.2;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px solid black;
+    background: linear-gradient(black,red);
+    border-radius: 0% 0% 0% 0%;
+}
+
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+h1{
+    margin-bottom: 100px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+
+img:hover{
+    opacity: 1;
+}
